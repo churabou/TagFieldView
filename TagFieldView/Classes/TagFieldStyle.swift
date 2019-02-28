@@ -16,10 +16,10 @@ public typealias Padding = UIEdgeInsets
 public struct Style {
     public var padding = Padding(top: 3, left: 6, bottom: 3, right: 6)
     public var textColor: UIColor = .white
-    public var tintColor: UIColor = .orange
+    public var tintColor: UIColor = .hex(hexStr: "#9e93ff")
     public var backgroundColor: UIColor = .hex(hexStr: "#9e93ff")
-    public var borderColor: UIColor = .red
-    public var borderWidth: CGFloat = 2
+    public var borderColor: UIColor = .hex(hexStr: "#8e83ef")
+    public var borderWidth: CGFloat = 3
     public var font: UIFont = .boldSystemFont(ofSize: 17)
     public var cornerRadius: CGFloat = 2
     public var margin = CGPoint(x: 8, y: 4)
