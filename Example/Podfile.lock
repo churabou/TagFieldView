@@ -1,0 +1,16 @@
+PODS:
+  - TagFieldView (0.1.0)
+
+DEPENDENCIES:
+  - TagFieldView (from `../`)
+
+EXTERNAL SOURCES:
+  TagFieldView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TagFieldView: e29d3ac14885c6a3cb62a8bbf87d57c04d3f7166
+
+PODFILE CHECKSUM: 609c9d0fc6e78220f14c89e8bb9a2b657962d1c5
+
+COCOAPODS: 1.6.1

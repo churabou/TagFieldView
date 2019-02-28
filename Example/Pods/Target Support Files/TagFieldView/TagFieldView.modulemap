@@ -1,0 +1,6 @@
+framework module TagFieldView {
+  umbrella header "TagFieldView-umbrella.h"
+
+  export *
+  module * { export * }
+}
