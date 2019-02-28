@@ -7,6 +7,17 @@
 
 ## Example
 
+<table>
+   <tr>
+     <th>TagField</th>
+     <th>TagListView</th>
+  </tr>
+  <tr>
+    <td><img src="./Assets/demo.gif" width="250"/></td>
+    <td><img src="./Assets/img.png" width="250"/></td>
+  </tr>
+</table>
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
