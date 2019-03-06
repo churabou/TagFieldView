@@ -35,6 +35,8 @@ just make TagFieldView object and add it as a subview
 
 ## How to make TagView?
 
+create TagViewStyle object and add it with tag names
+
 ``` .swift
         var style = Style()
         style.showDeleteButton = false
@@ -44,11 +46,8 @@ just make TagFieldView object and add it as a subview
         tagView.addTags("aaa", "bbb", "cccc", "ddddd", "ee", "fffff", with: style)
 ```
 
-create TagViewStyle object and add it widh tag names
-
-
-
 you can set TagViewStyle for each tagView
+
 ``` .swift
         let tagView = TagListView()
         let tags = ["aaa", "bbb", "cccc", "ddddd", "ee", "fffff"]
