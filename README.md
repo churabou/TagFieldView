@@ -20,6 +20,50 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
+## Usage
+
+just make TagFieldView object and add it as a subview
+
+``` .swift
+    let tagFieldView = TagFieldView()
+    tagFieldView.frame = CGRect(x: 0, y: 100, width: 300, height: 80)
+    view.addSubview(tagFieldView)
+```
+
+
+
+## How to make TagView?
+
+``` .swift
+        var style = Style()
+        style.showDeleteButton = false
+        style.backgroundColor = .hex(hexStr: "#dddddd")
+        style.textColor = .darkGray
+        style.cornerRadius = 3        
+        tagView.addTags("aaa", "bbb", "cccc", "ddddd", "ee", "fffff", with: style)
+```
+
+create TagViewStyle object and add it widh tag names
+
+
+
+you can set TagViewStyle for each tagView
+``` .swift
+        let tagView = TagListView()
+        let tags = ["aaa", "bbb", "cccc", "ddddd", "ee", "fffff"]
+        let colors = (1...10).map { UIColor(hue: CGFloat($0) / 10, saturation: 1, brightness: 1, alpha: 1)}        
+        tags.enumerated().forEach { index, text in
+            var style = Style()
+            style.backgroundColor = colors[index]
+            style.textColor = .darkGray
+            style.cornerRadius = 3
+            style.margin = Margin(x: 5, y: 10)
+            tagView.addTag(text, style: style)
+        }
+```
+
+
 ## Requirements
 
 ## Installation
